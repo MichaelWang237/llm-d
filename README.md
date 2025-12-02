@@ -14,6 +14,10 @@ High Performance Distributed Inference on Kubernetes
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
  [![Join Slack](https://img.shields.io/badge/Join_Slack-blue?logo=slack)](https://llm-d.ai/slack)
 
+
+## About this fork
+This fork mostly just contains extra configs (based on the ones from the guide) to deploy llm-d with different models and parallelism configs.
+
 Latest News 🔥
 - [2025-07] Release of our first three well-lit paths in [v0.2](https://llm-d.ai/blog/llm-d-v0.2-our-first-well-lit-paths): intelligent inference scheduling, simple disaggregated serving, and wide expert-parallelism.
 - [2025-05] CoreWeave, Google, IBM Research, NVIDIA, and Red Hat launched the llm-d community. Check out [our blog post](https://llm-d.ai/blog/llm-d-announce) and [press release](https://llm-d.ai/blog/llm-d-press-release).
