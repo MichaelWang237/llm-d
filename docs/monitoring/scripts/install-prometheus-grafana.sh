@@ -419,7 +419,6 @@ grafana:
         type: prometheus
         url: ${PROMETHEUS_PROTOCOL}://${RELEASE_NAME}-kube-prometheus-stack-prometheus.${MONITORING_NAMESPACE}.svc.cluster.local:${PROMETHEUS_PORT}
         access: proxy
-        isDefault: true
 $(if [[ "$ENABLE_TLS" == "true" ]]; then echo "        jsonData:
           tlsSkipVerify: true"; fi)
 prometheus:
@@ -461,7 +460,6 @@ grafana:
         type: prometheus
         url: ${PROMETHEUS_PROTOCOL}://${RELEASE_NAME}-kube-prometheus-stack-prometheus.${MONITORING_NAMESPACE}.svc.cluster.local:${PROMETHEUS_PORT}
         access: proxy
-        isDefault: true
 $(if [[ "$ENABLE_TLS" == "true" ]]; then echo "        jsonData:
           tlsSkipVerify: true"; fi)
 prometheus:
